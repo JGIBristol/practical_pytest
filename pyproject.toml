@@ -1,0 +1,23 @@
+[project]
+name = "practical-pytest"
+version = "0.1.0"
+description = "Stuff for the Pytest lunch and learn"
+readme = "README.md"
+authors = [
+    { name = "Richard Lane", email = "richard.lane@bristol.ac.uk" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pytest>=6.0.0",
+    "numpy>=2.0.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = [
+    "tests",
+]
