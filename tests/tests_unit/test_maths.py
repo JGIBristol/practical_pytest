@@ -1,12 +1,25 @@
 """
 Tests for the maths module
 """
+import pytest
 import numpy as np
 
 from practical_pytest import maths
 
 
 def test_mean():
+    """
+    Check if we can find the mean of some integers
+    """
+    numbers = [1, 2, 3]
+
+    expected_mean = 2
+    calculated_mean = maths.mean(numbers)
+
+    assert expected_mean == calculated_mean
+
+
+def test_mean_complex():
     """
     Check that we can find the mean of some complex numbers
     """
