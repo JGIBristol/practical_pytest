@@ -10,6 +10,8 @@ requires-python = ">=3.12"
 dependencies = [
     "pytest>=6.0.0",
     "numpy>=2.0.0",
+    "shapely>=2.1.1",
+    "scikit-image>=0.25.2",
 ]
 
 [build-system]
