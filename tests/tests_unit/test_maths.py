@@ -1,6 +1,7 @@
 """
 Tests for the maths module
 """
+
 import pytest
 import numpy as np
 

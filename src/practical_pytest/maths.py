@@ -2,6 +2,7 @@
 Maths functions
 """
 
+
 def mean(numbers: list[complex]) -> complex:
     """
     Get the mean of some numbers

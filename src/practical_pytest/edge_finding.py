@@ -1,9 +1,11 @@
 """
 Example code for finding the points on the edge of an object
 """
+
 import shapely
 import numpy as np
 from skimage import measure
+
 
 def points_around_edge(
     binary_img: np.ndarray, n_points: int

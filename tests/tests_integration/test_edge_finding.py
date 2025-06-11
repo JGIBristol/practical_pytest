@@ -2,6 +2,7 @@ import numpy as np
 
 from practical_pytest.edge_finding import points_around_edge
 
+
 def test_point_around_segmentation():
     """
     Check if we can get the expected points around a diamond shape
